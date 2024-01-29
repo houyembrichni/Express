@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+#logo {
+  font-family: "Lobster", sans-serif;
+  font-size: xx-large;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #00235a;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: white;
+  width: 100%;
+  min-height: 10vh;
+  box-sizing: border-box;
+}
+.Navlinks {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.Navlinks a {
+  all: unset;
+  cursor: pointer;
+  text-wrap: nowrap;
+  border: 1px white dashed;
+  padding: 15px;
+  border-radius: 10px;
+}
+.Navlinks a:hover {
+  color: black;
+  background-color: white;
+}
+#hero {
+  width: 76vw;
+  text-align: center;
+  font-size: x-large;
+  border: 1px #00235a solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.serviceDetail {
+  width: 76vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 5vh 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.contents {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.609);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: larger;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 70px;
+  border: 3px #00235a solid;
+  border-radius: 10px;
+  padding: 60px 130px;
+  font-size: larger;
+}
+.offService{
+    text-align: center;
+}
+.offService h4{
+    font-size: larger;
+}
